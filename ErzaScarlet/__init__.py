@@ -93,7 +93,6 @@ if ENV:
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
-    OWNER = list(filter(lambda x: x, map(int, os.environ.get("REQ_OWNER").split())))  ## sudos can be included
     
     
     try:
